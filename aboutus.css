@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('delhi.jpg');
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background color with opacity */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: url('img2.jpg'); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover entire container */
+    background-position: center; /* Center the image */
+    color: #333; /* Text color */
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
